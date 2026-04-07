@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Meeting Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🧠 AI Meeting Summarizer</h1>
+
+    <textarea id="inputText" placeholder="Paste meeting notes..."></textarea>
+
+    <button onclick="summarize()">Generate Summary</button>
+
+    <div id="output">
+        <h3>Summary:</h3>
+        <p id="summary"></p>
+
+        <h3>Action Items:</h3>
+        <pre id="actions"></pre>
+
+        <h3>Sentiment:</h3>
+        <p id="sentiment"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
